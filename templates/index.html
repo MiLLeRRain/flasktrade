@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Coinview</title>
+    <script src='https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js'></script>
+    <script src="../static/three.js"></script>
+    <script src="http://sole.github.io/tween.js/build/tween.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="klines">
+            <h2>Market: {{ title }}</h2>
+            <div id="chart">
+            </div>
+        </div>
+
+        <div id="my_balances" class="my_balances">
+            <h2>Balance sheet</h2>
+            <table>
+                {% for bal in my_balances %}
+                <tr>
+                    <td>
+                        <img width="12" src="{{ bal['imgUrl'] }}">
+                    </td>
+                    <td>
+                        {{ bal['asset'] }}
+                    </td>
+                    <td>
+                        {{ bal['free'] }}
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+
+        <div id="trades" class="trades">
+
+            <h3>Enquiry box</h3>
+            <form action="/buy" method="POST">
+                <input type="text" id="quantity" name="quantity" placeholder="eg. 0.001" />
+
+                <select id="fiatPairSymbol" name="select_symbol">
+                    {% for symb in fiatSymbols %}
+                    <option>{{ symb }}</option>
+                    {% endfor %}
+                </select>
+                <input type="submit" name="buy" value="Equiry" />
+            </form>
+        </div>
+
+        <div class="backtest">
+            <h3>Back test</h3>
+            <form action="/test" method="POST">
+                <table>
+                    <tr>
+                        <td>
+                            <lable>RSI</lable>
+                        </td>
+                        <td><input type="text" id="rsi_oversold" name="rsi_oversold" placeholder="Oversell: 30" /></td>
+                        <td><input type="text" id="rsi_overbought" name="rsi_overbought" placeholder="Overbuy: 70" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable>Date</lable>
+                        </td>
+                        <td><input type="text" id="startDate" name="startDate" placeholder="Start date, eg. 2021-7-1" />
+                        </td>
+                        <td><input type="text" id="endDate" name="endDate" placeholder="End date, eg. 2021-12-31" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" name="btRequest" value="RSI back test" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <div class="newsdiv">
+            <h3>New listing</h3>
+            <div id="newsdiv"></div>
+        </div>
+
+        <div class="messages">
+            <h3>Error messages</h3>
+            <div>
+                {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                {% for message in messages %}
+                {{ message }}
+                {% endfor %}
+                {% endif %}
+                {% endwith %}
+            </div>
+        </div>
+    </main>
+
+
+    <canvas id="background"> </canvas>
+
+    <script src="{{ url_for('static', filename='chart.js') }}"></script>
+    <script src="{{ url_for('static', filename='news.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='render.js') }}"></script>
+</body>
+
+</html>
