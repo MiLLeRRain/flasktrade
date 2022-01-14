@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 import json as js
-from urllib import parse
 from flask import jsonify
 
 # Announcement page

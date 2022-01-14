@@ -3,7 +3,6 @@ from flask import Flask, render_template, request, flash, redirect, jsonify
 from numpy import equal
 from werkzeug.utils import send_from_directory
 import conf
-import csv
 from binance.client import Client
 from binance.enums import *
 import backtest
@@ -20,6 +19,7 @@ CORS(app)
 
 title = symbol = 'BTCUSDT'
 news = ""
+
 client = Client(conf.API_Key, conf.API_SecretKey)
 urlCryptoCompare = "https://min-api.cryptocompare.com/data/all/coinlist?"
 allCoinData = requests.get(urlCryptoCompare).json()
@@ -137,5 +137,5 @@ def play():
     return render_template('play.html')
 
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+# if __name__ == '__main__':
+#     app.run(host='0.0.0.0', port=5000)
