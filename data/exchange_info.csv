@@ -13630,7 +13630,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '5.09400000', 'maxPrice': '96.78500000', 'tickSize': '0.00100000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '3000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '3000.00000000', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '98.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '5.09900000', 'maxPrice': '96.88000000', 'tickSize': '0.00100000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '3000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '3000.00000000', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '98.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,BTCDOWNUSDT
 status,TRADING
@@ -13647,7 +13647,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.00162200', 'maxPrice': '0.03081600', 'tickSize': '0.00000100'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '921415.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '921415.00000000', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '308452.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.00162100', 'maxPrice': '0.03079300', 'tickSize': '0.00000100'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '921415.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '921415.00000000', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '308928.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,GXSUSDT
 status,TRADING
@@ -14599,7 +14599,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '5.33600000', 'maxPrice': '101.36500000', 'tickSize': '0.00100000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '3000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '3000.00000000', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '94.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '5.33700000', 'maxPrice': '101.38600000', 'tickSize': '0.00100000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '3000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '3000.00000000', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '94.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,ETHDOWNUSDT
 status,TRADING
@@ -14616,7 +14616,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.07420000', 'maxPrice': '1.40870000', 'tickSize': '0.00010000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '100000000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '112382.40816539', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '6741.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.07420000', 'maxPrice': '1.40830000', 'tickSize': '0.00010000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '100000000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '112382.40816539', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '6761.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,ADAUPUSDT
 status,TRADING
@@ -14633,7 +14633,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '2.67800000', 'maxPrice': '50.86300000', 'tickSize': '0.00100000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '920000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '1821.07137500', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '93.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '2.79200000', 'maxPrice': '53.03100000', 'tickSize': '0.00100000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '920000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '1821.07137500', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '91.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,ADADOWNUSDT
 status,TRADING
@@ -14650,7 +14650,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.00057600', 'maxPrice': '0.01093200', 'tickSize': '0.00000100'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '100000000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '14052089.42584027', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '435388.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.00055000', 'maxPrice': '0.01044800', 'tickSize': '0.00000100'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '100000000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '14052089.42584027', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '446429.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,LINKUPUSDT
 status,TRADING
@@ -14667,7 +14667,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.07220000', 'maxPrice': '1.37010000', 'tickSize': '0.00010000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '920000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '120323.70465601', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '3472.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.07170000', 'maxPrice': '1.36080000', 'tickSize': '0.00010000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '920000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '120323.70465601', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '3497.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,LINKDOWNUSDT
 status,TRADING
@@ -14684,7 +14684,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.00049300', 'maxPrice': '0.00935400', 'tickSize': '0.00000100'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '300000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '300000.00000000', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '506278.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.00049700', 'maxPrice': '0.00942600', 'tickSize': '0.00000100'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '300000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '300000.00000000', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '501605.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,VTHOBNB
 status,TRADING
@@ -15313,7 +15313,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '40.30000000', 'maxPrice': '765.69000000', 'tickSize': '0.01000000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '500.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '500.00000000', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '12.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '39.98000000', 'maxPrice': '759.56000000', 'tickSize': '0.01000000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '500.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '500.00000000', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '12.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,BNBDOWNUSDT
 status,TRADING
@@ -15330,7 +15330,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.00837000', 'maxPrice': '0.15895000', 'tickSize': '0.00001000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '920000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '457106.21507991', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '59801.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.00846000', 'maxPrice': '0.16066000', 'tickSize': '0.00001000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '920000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '457106.21507991', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '59382.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,XTZUPUSDT
 status,TRADING
@@ -15347,7 +15347,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.00098000', 'maxPrice': '0.01848000', 'tickSize': '0.00001000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '920000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '3999901.00000000', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '256674.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.00097000', 'maxPrice': '0.01842000', 'tickSize': '0.00001000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '920000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '3999901.00000000', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '257732.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,XTZDOWNUSDT
 status,TRADING
@@ -15364,7 +15364,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.12900000', 'maxPrice': '2.43500000', 'tickSize': '0.00100000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '49991176.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '21390.73829047', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '1958.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.12900000', 'maxPrice': '2.44500000', 'tickSize': '0.00100000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '49991176.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '21390.73829047', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '1949.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,AVABNB
 status,TRADING
@@ -17387,7 +17387,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.00959000', 'maxPrice': '0.18219000', 'tickSize': '0.00001000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '920000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '922327.00000000', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '52013.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.00965000', 'maxPrice': '0.18322000', 'tickSize': '0.00001000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '920000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '922327.00000000', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '51975.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,TRXDOWNUSDT
 status,TRADING
@@ -17404,7 +17404,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '1.10500000', 'maxPrice': '20.98700000', 'tickSize': '0.00100000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '89984117.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '1051.00031966', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '451.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '1.09900000', 'maxPrice': '20.87500000', 'tickSize': '0.00100000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '89984117.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '1051.00031966', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '455.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,XRPUPUSDT
 status,TRADING
@@ -17421,7 +17421,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.17850000', 'maxPrice': '3.38990000', 'tickSize': '0.00010000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '920000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '137763.49364583', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '2809.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.17890000', 'maxPrice': '3.39790000', 'tickSize': '0.00010000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '920000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '137763.49364583', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '2794.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,XRPDOWNUSDT
 status,TRADING
@@ -17438,7 +17438,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.00010320', 'maxPrice': '0.00196030', 'tickSize': '0.00000010'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '99999999.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '33925168.11193884', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '4839803.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.00010290', 'maxPrice': '0.00195410', 'tickSize': '0.00000010'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '99999999.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '33925168.11193884', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '4869497.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,DOTUPUSDT
 status,TRADING
@@ -17455,7 +17455,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.32100000', 'maxPrice': '6.09700000', 'tickSize': '0.00100000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '920000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '88363.50463516', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '1564.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.31900000', 'maxPrice': '6.04700000', 'tickSize': '0.00100000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '920000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '88363.50463516', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '1572.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,DOTDOWNUSDT
 status,TRADING
@@ -17472,7 +17472,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '1.14900000', 'maxPrice': '21.82700000', 'tickSize': '0.00100000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '100000000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '6407.35646282', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '433.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '1.16100000', 'maxPrice': '22.04900000', 'tickSize': '0.00100000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '100000000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '6407.35646282', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '431.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,SRMBIDR
 status,BREAK
@@ -17727,7 +17727,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.11500000', 'maxPrice': '2.18200000', 'tickSize': '0.00100000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '920000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '188230.55577484', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '4367.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.11400000', 'maxPrice': '2.16100000', 'tickSize': '0.00100000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '920000.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '188230.55577484', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '4398.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,LTCDOWNUSDT
 status,TRADING
@@ -17744,7 +17744,7 @@ ocoAllowed,True
 quoteOrderQtyMarketAllowed,False
 isSpotTradingAllowed,False
 isMarginTradingAllowed,False
-filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.14840000', 'maxPrice': '2.81810000', 'tickSize': '0.00010000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '610819340.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '15518.76516330', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '3380.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
+filters,"[{'filterType': 'PRICE_FILTER', 'minPrice': '0.14990000', 'maxPrice': '2.84750000', 'tickSize': '0.00010000'}, {'filterType': 'PERCENT_PRICE', 'multiplierUp': '5', 'multiplierDown': '0.2', 'avgPriceMins': 5}, {'filterType': 'LOT_SIZE', 'minQty': '0.01000000', 'maxQty': '610819340.00000000', 'stepSize': '0.01000000'}, {'filterType': 'MIN_NOTIONAL', 'minNotional': '10.00000000', 'applyToMarket': True, 'avgPriceMins': 5}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '15518.76516330', 'stepSize': '0.00000000'}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_POSITION', 'maxPosition': '3334.00000000'}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}]"
 permissions,['LEVERAGED']
 symbol,LENDBKRW
 status,BREAK
