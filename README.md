@@ -2,8 +2,12 @@
 
 Weekly assignment project
 
-Deployed on AWS lightsail:
+Deployed:
+AWS lightsail:
 https://flasktrade-service.s5ei5ipq3r2cq.ap-southeast-2.cs.amazonlightsail.com/
+Elastic Beanstalk:
+http://flask-env.eba-scn7rxqe.ap-southeast-2.elasticbeanstalk.com/
+
 
 Problems met and resolved:
 
@@ -102,4 +106,13 @@ Set-ExecutionPolicy Unrestricted -Scope Process
 Cannot install libs while building docker
 Set base image (host OS)
 FROM python:3.8-buster (change from 3.8-alpine)
+**/
+
+
+/**
+Bad gateway 502 error, when deployed on Elastic Beanstalk
+FIX:
+rename use appilication.py as main class for FLASK instead of app.py
+rename all occurrences
+then deploy to EB, and it would work
 **/

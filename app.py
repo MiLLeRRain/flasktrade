@@ -127,9 +127,9 @@ def test():
     return redirect('/')
 
 
-@app.route('/static/<path:filename>')
-def es_static(filename):
-    return send_from_directory("static", filename)
+# @app.route('/static/<path:filename>')
+# def es_static(filename):
+#     return send_from_directory("static", filename)
 
 
 @app.route('/play')
