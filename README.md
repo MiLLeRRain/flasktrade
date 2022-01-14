@@ -68,7 +68,7 @@ def helloWorld():
 Date formation reading problem from csv
 FIX:
 data = bt.feeds.GenericCSVData(dataname='2020-FTM1d.csv', dtformat=2)
-# use dtformat=2 means using float unix timestamp
+use dtformat=2 means using float unix timestamp
 **/
 
 
@@ -100,6 +100,6 @@ Set-ExecutionPolicy Unrestricted -Scope Process
 
 /**
 Cannot install libs while building docker
-# Set base image (host OS)
+Set base image (host OS)
 FROM python:3.8-buster (change from 3.8-alpine)
 **/
