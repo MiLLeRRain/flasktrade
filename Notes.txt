@@ -1,0 +1,40 @@
+git pull
+
+sudo apt install python3-virtualenv
+python3 -m venv venv
+. venv/bin/activate
+pip install -r requirements.txt (commands to make: pip freeze > requirements.txt)
+
+or
+
+python -m flask run
+
+make docker container
+make Dockerfile
+docker build -t flasktrade-container .
+docker run -p 5000:5000 flasktrade-container flask run --host 0.0.0.0
+docker push (https://docs.docker.com/engine/reference/commandline/push/)
+
+in AWS lightsail:
+update the docker image from DockerHub to Lightsail
+deploy
+
+
+sudo nano uswgi.ini
+[uwsgi]
+http=0.0.0.0:5000
+pythonpath=/root/
+module=app
+wsgi-file=/root/app.py
+callable=app
+processes=10
+threads=10
+listen=100
+daemonize=/root/uwsgi.log
+pidfile=/root/uwsgi.pid
+http-timeout=100
+master=true
+log-format = [pid: %(pid)|app: -|req: -/-] %(addr) (%(user)) {%(vars) 
+vars in %(pktsize) bytes} [%(ctime)] %(method) %(uri) => generated
+ %(rsize) bytes in %(msecs) msecs (%(proto) %(status)) %(headers)
+  headers in %(hsize) bytes (%(switches) switches on core %(core))
