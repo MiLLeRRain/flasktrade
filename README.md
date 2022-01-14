@@ -6,6 +6,7 @@ Deployed on AWS lightsail:
 https://flasktrade-service.s5ei5ipq3r2cq.ap-southeast-2.cs.amazonlightsail.com/
 
 Problems met and resolved:
+
 /**
 flask setups:
 The other way to create app
@@ -18,7 +19,6 @@ def create_app():
 app = create_app()
 $env:FLASK_ENV = "development" $env:FLASK_APP = "app.py" python -m flask run
 **/
-
 
 /**
 plot not working:
