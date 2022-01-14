@@ -54,7 +54,7 @@ var volumeSeries = chart.addHistogramSeries({
 	},
 });
 
-fetch('http://localhost:5000/history')
+fetch('https://flasktrade-service.s5ei5ipq3r2cq.ap-southeast-2.cs.amazonlightsail.com/history')
 	.then((r) => r.json())
 	.then((response) => {
 		// console.log(response)

@@ -1,7 +1,7 @@
 const newsdiv = document.getElementById('newsdiv')
 console.log(newsdiv)
 
-fetch('http://localhost:5000/newsfeed')
+fetch('https://flasktrade-service.s5ei5ipq3r2cq.ap-southeast-2.cs.amazonlightsail.com/newsfeed')
     .then((r) => r.json())
     .then((response) => {
         console.log(response)
@@ -27,5 +27,5 @@ fetch('http://localhost:5000/newsfeed')
 
 setInterval( () => {
     // console.log(fetch('http://localhost:5000/crawler'))
-    fetch('http://localhost:5000/crawler')
+    fetch('https://flasktrade-service.s5ei5ipq3r2cq.ap-southeast-2.cs.amazonlightsail.com/crawler')
 } , 10000)
