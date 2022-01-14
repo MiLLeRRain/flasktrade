@@ -13,10 +13,10 @@ import iconfetch as icon
 import requests
 
 
-application = Flask(__name__)
-application.secret_key = b'&*!@^(F*(*ASgvdsASf-sag123'
+app = Flask(__name__)
+app.secret_key = b'&*!@^(F*(*ASgvdsASf-sag123'
 
-CORS(application)
+CORS(app)
 
 title = symbol = 'BTCUSDT'
 news = ""
@@ -25,7 +25,7 @@ urlCryptoCompare = "https://min-api.cryptocompare.com/data/all/coinlist?"
 allCoinData = requests.get(urlCryptoCompare).json()
 
 
-@application.route('/')
+@app.route('/')
 def index():
 
     account = client.get_account()
@@ -57,7 +57,7 @@ def index():
     return render_template('index.html', title=title, my_balances=legit_balances, fiatSymbols=fiatSymbs)
 
 
-@application.route('/buy', methods=['POST'])
+@app.route('/buy', methods=['POST'])
 def buy():
     global title, symbol
     title = symbol = request.form['select_symbol']
@@ -77,18 +77,18 @@ def buy():
     return redirect('/')
 
 
-@application.route('/crawler')
+@app.route('/crawler')
 def crawler():
     cr.fetch()
     return "fetch"
 
 
-@application.route('/newsfeed')
+@app.route('/newsfeed')
 def newsfeed():
     return cr.getLastNewsJson()
 
 
-@application.route('/history')
+@app.route('/history')
 def history():
     global symbol
     candlesticks = client.get_historical_klines(
@@ -113,7 +113,7 @@ def history():
     return jsonify(processed_candlesticks)
 
 
-@application.route('/test', methods=['POST'])
+@app.route('/test', methods=['POST'])
 def test():
     print(request.form)
     global symbol
@@ -127,15 +127,15 @@ def test():
     return redirect('/')
 
 
-@application.route('/static/<path:filename>')
+@app.route('/static/<path:filename>')
 def es_static(filename):
     return send_from_directory("static", filename)
 
 
-@application.route('/play')
+@app.route('/play')
 def play():
     return render_template('play.html')
 
 
 if __name__ == '__main__':
-    application.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000)
