@@ -8,14 +8,14 @@ https://flasktrade-service.s5ei5ipq3r2cq.ap-southeast-2.cs.amazonlightsail.com/
 Problems met and resolved:
 /**
 flask setups:
-# The other way to create app
-# def create_app():
-#     app = Flask(__name__)
-#     @app.route('/')
-#     def hello_world():
-#         return 'Hello, World!'
-#     return app      
-# app = create_app()
+The other way to create app
+def create_app():
+    app = Flask(__name__)
+    @app.route('/')
+    def hello_world():
+        return 'Hello, World!'
+    return app      
+app = create_app()
 $env:FLASK_ENV = "development" $env:FLASK_APP = "app.py" python -m flask run
 **/
 
