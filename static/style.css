@@ -19,6 +19,7 @@ main {
     align-content: space-around;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    color: white
 }
 
 .klines {
@@ -71,4 +72,5 @@ main {
 
 .newsdiv a{
 	text-decoration: none;
+    color: white
 }
