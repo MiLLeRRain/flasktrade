@@ -1,0 +1,22 @@
+{
+  "name": "flasktrade",
+  "version": "1.0.0",
+  "description": "flasktrade project build with FLASK",
+  "main": "app.py",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiLLeRRain/flasktrade.git"
+  },
+  "author": "lh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiLLeRRain/flasktrade/issues"
+  },
+  "homepage": "https://github.com/MiLLeRRain/flasktrade#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}

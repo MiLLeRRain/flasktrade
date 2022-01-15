@@ -34,9 +34,10 @@ def buildKlines15m(symbol):
     try:
         print("Start building data:" + symbol)
         candlesticks = client.get_historical_klines(
-            symbol, Client.KLINE_INTERVAL_15MINUTE, "1609459200", str(time.time()))
+            symbol, Client.KLINE_INTERVAL_15MINUTE, "1609459200",
+            str(time.time()))
 
-        file2 = open('data/2021-'+symbol+'15m.csv', 'w', newline='')
+        file2 = open('data/2021-' + symbol + '15m.csv', 'w', newline='')
         candlestick_writer2 = csv.writer(file2, delimiter=',')
 
         for candlestick in candlesticks:
@@ -44,19 +45,27 @@ def buildKlines15m(symbol):
             candlestick_writer2.writerow(candlestick)
 
         file2.close()
-        print("Done building data:"+symbol)
+        print("Done building data:" + symbol)
         return "finished"
-    except:
-        print("Fail building data")
+    except Exception:
+        print("Failed building data")
+        return "failed"
 
 
-file3 = open('data/exchange_info.csv', 'w', newline='')
-exinfo_writer = csv.writer(file3)
+def getExchangeInfo():
+    try:
+        file3 = open('data/exchange_info.csv', 'w', newline='')
+        exinfo_writer = csv.writer(file3)
 
-pack = exchange_info['symbols']
+        pack = exchange_info['symbols']
 
-for pak in pack:
-    for k, v in pak.items():
-        exinfo_writer.writerow([k, v])
+        for pak in pack:
+            for k, v in pak.items():
+                exinfo_writer.writerow([k, v])
 
-file3.close()
+        file3.close()
+        print("Done fetching exchange info")
+        return True
+    except Exception:
+        print("Failed fetching exchange info")
+        return False

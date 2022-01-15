@@ -11,7 +11,6 @@ import crawler as cr
 import iconfetch as icon
 import requests
 
-
 app = Flask(__name__)
 app.secret_key = b'&*!@^(F*(*ASgvdsASf-sag123'
 
@@ -54,7 +53,10 @@ def index():
             # print(url)
     # print(legit_balances)
 
-    return render_template('index.html', title=title, my_balances=legit_balances, fiatSymbols=fiatSymbs)
+    return render_template('index.html',
+                           title=title,
+                           my_balances=legit_balances,
+                           fiatSymbols=fiatSymbs)
 
 
 @app.route('/buy', methods=['POST'])
@@ -69,8 +71,7 @@ def buy():
             type=ORDER_TYPE_LIMIT,
             timeInForce=TIME_IN_FORCE_GTC,
             quantity=request.form['quantity'],
-            price='2500'
-        )
+            price='2500')
     except Exception as e:
         flash(str(e), "Buy Error")
 
@@ -91,8 +92,9 @@ def newsfeed():
 @app.route('/history')
 def history():
     global symbol
-    candlesticks = client.get_historical_klines(
-        symbol, Client.KLINE_INTERVAL_15MINUTE, "1 Jan, 2022")
+    candlesticks = client.get_historical_klines(symbol,
+                                                Client.KLINE_INTERVAL_15MINUTE,
+                                                "1 Jan, 2022")
     # (method) get_historical_klines:
     # (symbol, interval, start_str, end_str=None, limit=500, klines_type: HistoricalKlinesType = HistoricalKlinesType.SPOT) -> list
 

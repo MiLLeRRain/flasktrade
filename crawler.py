@@ -11,14 +11,21 @@ filename = "new_listing"
 
 def openUrl(url):
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36'}
-    r = requests.get(url, headers=headers)
+        'User-Agent':
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36'
+    }
+    try:
+        r = requests.get(url, headers=headers)
+    except Exception as e:
+        print("failed loading {}".format(url) + "|error: {}".format(e))
+        return "failed"
     if r.status_code == 200:
         r.encoding = 'utf-8'
         print("success loading {}".format(url))
         return r.text
     else:
-        print("failed loading {}".format(url))
+        print(r.status_code)
+        return "failed"
 
 
 def readLast():
@@ -30,6 +37,7 @@ def readLast():
         f.close()
     except Exception:
         print("error reading file")
+        return -1
     print("Last stored code:" + precode)
     return precode
 
@@ -38,7 +46,8 @@ def getLastNewsJson():
     try:
         with open(filename, 'r') as f:
             array = js.load(f)
-            lastNews_href = urlHead.format(array[0]['code']) # parse.urljoin(urlHead, array[0]['code'])
+            lastNews_href = urlHead.format(
+                array[0]['code'])  # parse.urljoin(urlHead, array[0]['code'])
             lastNewsJson = {
                 "title": array[0]['title'],
                 "lastNews_href": lastNews_href,
@@ -52,7 +61,8 @@ def getLastNewsJson():
 
 def pushNews(lastNews, lastNews_code, updateDate):
     # Assemble the url with code
-    lastNews_href = urlHead.format(lastNews_code) # parse.urljoin(urlHead, array[0]['code'])
+    lastNews_href = urlHead.format(lastNews_code)
+    # parse.urljoin(urlHead, array[0]['code'])
     print("\n", "lastNews_href:", lastNews_href, "\n", "title:", lastNews)
     return jsonify({
         "title": lastNews,
@@ -72,8 +82,11 @@ def fetch():
         soup = BeautifulSoup(ret, 'html.parser')
         # find the New Listing feeds
         article_data = js.loads(
-            soup.find("script", {"id": "__APP_DATA"}).get_text())
-        articles = article_data['routeProps']['b723']['catalogs'][0]['articles']
+            soup.find("script", {
+                "id": "__APP_DATA"
+            }).get_text())
+        articles = article_data['routeProps']['b723']['catalogs'][0][
+            'articles']
 
         lastNewsPack = articles[0]
         print(lastNewsPack)
