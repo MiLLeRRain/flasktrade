@@ -1,7 +1,4 @@
-from time import sleep
 from flask import Flask, render_template, request, flash, redirect, jsonify
-from numpy import equal
-from werkzeug.utils import send_from_directory
 import conf
 from binance.client import Client
 from binance.enums import *
@@ -67,8 +64,8 @@ def buy():
         order = client.create_order(
             symbol=request.form['select_symbol'],
             side=SIDE_BUY,
-            # type=ORDER_TYPE_MARKET,
-            type=ORDER_TYPE_LIMIT,
+            type=ORDER_TYPE_MARKET,
+            # type=ORDER_TYPE_LIMIT,
             timeInForce=TIME_IN_FORCE_GTC,
             quantity=request.form['quantity'],
             price='2500')
